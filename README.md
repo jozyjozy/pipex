@@ -12,7 +12,7 @@ The **Pipex** project involves creating a program that simulates the behavior of
 - **Forking**: Create new processes to execute commands.
 - **Pipes**: Set up pipes to redirect the output of one process to the input of another.
 - **Redirection**: Handle redirection of input/output files (e.g., `<`, `>`, `>>`).
-- **Command Execution**: Use `execvp()` to execute commands within each process.
+- **Command Execution**: Use `execve()` to execute commands within each process.
 
 ## Objectives
 
